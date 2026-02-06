@@ -1,4 +1,4 @@
-const OLLAMA_ENDPOINT = 'http://localhost:11434/api';
+const OLLAMA_ENDPOINT = 'http://10.0.0.15:11434/api';
 
 export const sendMessage = async (messages, onChunk, model = 'llama3.2:latest', signal) => {
   try {
